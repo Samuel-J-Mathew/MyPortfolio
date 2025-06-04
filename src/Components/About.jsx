@@ -7,7 +7,7 @@ const About = () => {
                 <div className="w-[35%]">
                     <div className="w-[65%] p-[1vw] bg-color-primary rounded-full">
                         <img
-                            src="/Images/Others/Joris.DToCMZOR_ZRGHnH.avif"
+                            src="/Images/Others/samMathewProfileclose.png"
                             alt=""
                         />
                     </div>
