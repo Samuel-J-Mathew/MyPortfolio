@@ -53,7 +53,7 @@ const AboutPage = () => {
                             src="/Images/Others/About • Joris Brianti.webm"
                         ></video>
                         <h2 ref={(el) => (AboutPageText.current[2] = el)}>
-                            & Front End Developer
+                            & FrontEnd Developer
                         </h2>
                     </div>
                     <Scroll bottom={"bottom-0"} />
