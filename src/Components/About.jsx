@@ -45,15 +45,15 @@ const About = () => {
                 </div>
                 <div className="w-[65%] flex flex-wrap gap-5 text-[22px] sm:text-[3.8vw] md:text-[3.4vw] lg:text-[3vw] xl:text-[2.5vw] 2xl:text-[2.2vw]">
                     <div className="flex gap-5 items-center">
-                        <p>HTML</p>
+                        <p>JavaScript</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>CSS</p>
+                        <p>Flutter</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>JS</p>
+                        <p>Firebase</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
@@ -61,22 +61,22 @@ const About = () => {
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>Tailwind</p>
+                        <p>Express</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>Bootstrap</p>
+                        <p>Node.js</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>Gsap</p>
+                        <p>REST APIs<</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>Framer</p>
+                        <p>CSS3</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
-                    <p>Animation</p>
+                    <p>MongoDB</p>
                 </div>
             </div>
             <div className="flex items-center gap-5 my-20 text-color-fifth">
