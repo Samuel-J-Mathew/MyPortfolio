@@ -15,21 +15,20 @@ const About = () => {
                 <div className="w-[65%]">
                     <div className="">
                         <h3 className="text-[80px] leading-[110%]">
-                            I craft digital experiences combining design, motion
-                            & development
+                            I build practical digital products by blending creativity,
+                            code, and purpose.
                         </h3>
                     </div>
                     <div className="mt-[3vw]">
                         <p className="text-3xl leading-[130%]">
-                            My creative journey began 15 years ago when I
-                            discovered a passion for everything that could be
-                            created through a computer. Curious and driven by
-                            the desire to learn and practice, I spent countless
-                            hours learning graphic and motion design, as well as
-                            web development, through online resources and
-                            personal projects. All of this naturally led me to
-                            continue my studies in this field and then quickly
-                            apply my skills in a professional setting.
+                            My journey into development started with a curiosity about how things work—and
+                            how to build them better. After earning my degree in Computer Science, I dove 
+                            deep into front-end and full-stack development, teaching myself through real 
+                            projects and hands-on experimentation. Whether it's building mobile apps with
+                            Flutter or creating responsive web experiences with JavaScript, Firebase, 
+                            and Node.js, I’m driven by the challenge of turning ideas into clean, usable,
+                            and impactful products. What began as self-motivated learning is now my 
+                            full-time focus: building smarter tools, one line of code at a time.
                         </p>
                     </div>
                 </div>
