@@ -91,9 +91,8 @@ const About = () => {
                 </div>
                 <div className="w-[65%] flex flex-wrap gap-5 text-[22px] sm:text-[3.8vw] md:text-[3.4vw] lg:text-[3vw] xl:text-[2.5vw] 2xl:text-[2.2vw]">
                     <p>
-                        I studied computer science on High School and now I'm
-                        graduating on Chemistry from from a reputable local
-                        college.
+                        B.S. In Computer science,
+                        University of California State Long Beach
                     </p>
                 </div>
             </div>
