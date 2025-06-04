@@ -50,7 +50,7 @@ const Info = () => {
                 className="w-full max-w-[1150px] mx-auto h-full flex justify-center items-center gap-10"
             >
                 <div className="text-[27px] md:text-4xl lg:text-[38px] xl:text-[43px] 2xl:text-[47px] w-full font-font1 overflow-hidden leading-[130%]">
-                    {"Hey there, I'm Mejbaul Alom, a Frontend Developer from Bangladesh, with 1.5 years of experience building responsive, animated interfaces using React, Tailwind CSS, GSAP, and Framer Motion. I focus on clean code, smooth interactions, and creating visually engaging, user-friendly web experiences."
+                    {"Hey there, I'm Sam Mathew, a Front-End Developer and Computer Science graduate focused on building clean, responsive, and user-friendly applications. I work with tools like JavaScript, Flutter, Firebase, Node.js, and Express to bring ideas to life across web and mobile platforms. I care about writing modular code, creating smooth user experiences, and building full-stack projects that feel polished and practical. Whether it's integrating real-time features, optimizing performance, or deploying scalable apps, I focus on delivering work that’s both functional and efficient."
                         .split(" ")
                         .map((c, i) => {
                             return (
