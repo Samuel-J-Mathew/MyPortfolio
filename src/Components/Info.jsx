@@ -32,7 +32,7 @@ const Info = () => {
         );
     }, []);
     const boldWords = [
-        "Mejbaul",
+        "Sam",
         "Alom,",
         "React,",
         "GSAP,",
