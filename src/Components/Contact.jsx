@@ -5,7 +5,6 @@ import React, { useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {
-
     const contactMainRef = useRef();
     const borderRef = useRef();
 
@@ -45,34 +44,36 @@ const Contact = () => {
                 >
                     sam@samuelmathew.work
                 </h2>
+
                 <div className="leading-[100%] grid grid-cols-2 sm:grid-cols-4 gap-y-3 gap-x-5 sm:gap-2 md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-5 mt-6 sm:mt-8 lg:mt-15 font-font1 px-8">
-                    {["Facebook", "Github", "Linkedin", "Whatsapp"].map(
-                        (title, idx) => {
-                            return (
-                                <a
-                                    key={idx}
-                                    href=""
-                                    className="flex items-center col-span-1 gap-3 sm:gap-4 justify-center font-font1 text-color-primary text-base md:text-lg lg:text-xl xl:text-2xl w-max mx-auto group relative pl-4 sm:pl-5.5 md:pl-7 p-0 md:p-2"
-                                >
-                                    <span className="w-2 md:w-2.5 h-2 md:h-2.5 rounded-full flex flex-col justify-center items-center bg-color-fourth group-hover:scale-[3] easing absolute left-0 top-1/2 -translate-y-1/2 -rotate-45">
-                                        <img
-                                            className="w-[75%] h-[75%] opacity-0 transition-all group-hover:opacity-100 "
-                                            src="/Images/Icons/arrow.svg"
-                                            alt=""
-                                        />
-                                    </span>
-                                    <div className="flex flex-col h-4.5 md:h-5 lg:h-[21px] xl:h-[27px] leading-[100%]  overflow-hidden">
-                                        <span className="group-hover:-translate-y-[100%] easing">
-                                            {title}
-                                        </span>
-                                        <span className="group-hover:-translate-y-[100%] easing text-color-fourth">
-                                            {title}
-                                        </span>
-                                    </div>
-                                </a>
-                            );
-                        }
-                    )}
+                    {[
+                        { title: "Github", url: "https://github.com/Samuel-J-Mathew" },
+                        { title: "Linkedin", url: "https://www.linkedin.com/in/samuel-j-mathew" }
+                    ].map(({ title, url }, idx) => (
+                        <a
+                            key={idx}
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center col-span-1 gap-3 sm:gap-4 justify-center font-font1 text-color-primary text-base md:text-lg lg:text-xl xl:text-2xl w-max mx-auto group relative pl-4 sm:pl-5.5 md:pl-7 p-0 md:p-2"
+                        >
+                            <span className="w-2 md:w-2.5 h-2 md:h-2.5 rounded-full flex flex-col justify-center items-center bg-color-fourth group-hover:scale-[3] easing absolute left-0 top-1/2 -translate-y-1/2 -rotate-45">
+                                <img
+                                    className="w-[75%] h-[75%] opacity-0 transition-all group-hover:opacity-100"
+                                    src="/Images/Icons/arrow.svg"
+                                    alt=""
+                                />
+                            </span>
+                            <div className="flex flex-col h-4.5 md:h-5 lg:h-[21px] xl:h-[27px] leading-[100%] overflow-hidden">
+                                <span className="group-hover:-translate-y-[100%] easing">
+                                    {title}
+                                </span>
+                                <span className="group-hover:-translate-y-[100%] easing text-color-fourth">
+                                    {title}
+                                </span>
+                            </div>
+                        </a>
+                    ))}
                 </div>
             </div>
 
