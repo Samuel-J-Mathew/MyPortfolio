@@ -40,7 +40,7 @@ const About = () => {
             <div className="flex">
                 <div className="w-[35%]">
                     <p className="font-font4 leading-[100%] text-[80px]">
-                        Toolbox
+                        Tools
                     </p>
                 </div>
                 <div className="w-[65%] flex flex-wrap gap-5 text-[22px] sm:text-[3.8vw] md:text-[3.4vw] lg:text-[3vw] xl:text-[2.5vw] 2xl:text-[2.2vw]">
