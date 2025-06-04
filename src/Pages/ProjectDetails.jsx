@@ -53,7 +53,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-8xl sm:text-[16vw] md:text-[14vw] lg:text-[12vw] xl:text-[10vw] 2xl:text-[8.5vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -64,7 +64,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -75,7 +75,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -86,7 +86,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -97,7 +97,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -108,7 +108,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -119,7 +119,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -130,7 +130,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -141,7 +141,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
@@ -152,7 +152,7 @@ const ProjectDetails = () => {
                     <span
                         className={`inline-flex items-center font-font3 text-[110px] sm:text-[18vw] md:text-[16vw] lg:text-[14vw] xl:text-[12vw] 2xl:text-[10vw] whitespace-nowrap select-none group text-color-primary`}
                     >
-                        Russian mockups
+                        Overload -  Fitness Tracker
                         <span
                             // ref={(elem) =>
                             //     (shapeRef.current[1] = elem)
