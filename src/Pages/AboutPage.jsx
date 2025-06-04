@@ -43,7 +43,7 @@ const AboutPage = () => {
                 >
                     <div className="text-[19vw] sm:text-[150px] md:text-[150px] lg:text-[180px] xl:text-[200px] 2xl:text-[250px] leading-[100%] font-font4 flex justify-center items-center gap-20">
                         <h2 ref={(el) => (AboutPageText.current[1] = el)}>
-                            Software Engineer
+                            FrontEnd Developer
                         </h2>
                         <video
                             className="absolute top-1/2 left-1/2 -translate-1/2 w-[40%]"
@@ -53,7 +53,7 @@ const AboutPage = () => {
                             src="/Images/Others/About • Joris Brianti.webm"
                         ></video>
                         <h2 ref={(el) => (AboutPageText.current[2] = el)}>
-                            & FrontEnd Developer
+                            & Freelancer
                         </h2>
                     </div>
                     <Scroll bottom={"bottom-0"} />
