@@ -45,7 +45,7 @@ const Contact = () => {
                     sam@samuelmathew.work
                 </h2>
 
-                <div className="leading-[100%] grid grid-cols-2 sm:grid-cols-4 gap-y-3 gap-x-5 sm:gap-2 md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-5 mt-6 sm:mt-8 lg:mt-15 font-font1 px-8">
+                <div className="leading-[100%] grid grid-cols-2 gap-x-6 gap-y-4 justify-center mt-6 sm:mt-8 lg:mt-15 font-font1 px-8">
                     {[
                         { title: "Github", url: "https://github.com/Samuel-J-Mathew" },
                         { title: "Linkedin", url: "https://www.linkedin.com/in/samuel-j-mathew" }
