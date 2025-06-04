@@ -69,7 +69,7 @@ const About = () => {
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
-                        <p>REST APIs<</p>
+                        <p>REST APIs</p>
                         <span className="w-2 h-2 rounded-full bg-color-fourth block" />
                     </div>
                     <div className="flex gap-5 items-center">
