@@ -43,7 +43,7 @@ const Contact = () => {
                 <h2
                     className="text-[11.7vw] sm:text-[10.6vw] md:text-[9vw] xl:text-[135px] text-center leading-[100%] tracking-[-0.2vw] font-font1 text-color-primary hover:text-color-fourth transform-color easing cursor-pointer"
                 >
-                    hello@gmail.com
+                    sam@samuelmathew.work
                 </h2>
                 <div className="leading-[100%] grid grid-cols-2 sm:grid-cols-4 gap-y-3 gap-x-5 sm:gap-2 md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-5 mt-6 sm:mt-8 lg:mt-15 font-font1 px-8">
                     {["Facebook", "Github", "Linkedin", "Whatsapp"].map(
