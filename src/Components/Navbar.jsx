@@ -44,10 +44,10 @@ const Navbar = () => {
                 className="flex flex-col h-[24px] sm:h-[25px] lg:h-[25px] xl:h-[29px] 2xl:h-[30px] leading-[100%]  overflow-hidden group uppercase logo text-[28px] sm:text-3xl xl:text-4xl tracking-[2px] font-font4"
             >
                 <span className="group-hover:-translate-y-[100%] easing">
-                    Mejbaul a.
+                    Sam M.
                 </span>
                 <span className="group-hover:-translate-y-[100%] easing text-color-fourth">
-                    Mejbaul a.
+                    Sam M.
                 </span>
             </NavLink>
             <div className="menu flex items-center text-xl md:text-2xl xl:text-[27px] gap-4.5 sm:gap-5 tracking-[1px] font-font4">
