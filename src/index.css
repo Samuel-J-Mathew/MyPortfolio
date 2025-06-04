@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'font1';
+    src: url('/Fonts/GeneralSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('/Fonts/MangoGrotesque-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url('/Fonts/MangoGrotesque-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('/Fonts/MangoGrotesque-Light.woff2') format('woff2');
+}
+
+
+@theme {
+    --font-font1: "font1", "sans-serif";
+    --font-font2: "font2", "sans-serif";
+    --font-font3: "font3", "sans-serif";
+    --font-font4: "font4", "sans-serif";
+    --color-color-primary: #F0DADA;
+    --color-color-secondary: #0E090D;
+    --color-color-third: #303030;
+    --color-color-fourth: #F64068;
+    --color-color-fifth: #928485;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: #0E090D;
+}
+
+.custom-easing {
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.imageStyles {
+    width: 250px;
+    height: 250px;
+    inset: 0;
+    object-fit: contain;
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.easing {
+    transition: 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.easing2 {
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.pulse {
+    animation: pulseAnimation 1.5s ease-out infinite;
+}
+
+@keyframes pulseAnimation {
+    100% {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
