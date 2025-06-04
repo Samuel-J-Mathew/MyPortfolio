@@ -7,7 +7,7 @@ const Context = (props) => {
     const [projectData, setProjectData] = useState([
         {
             id: 1,
-            title: "Russian mockups",
+            title: "Overload – Full-Stack Fitness Tracking App",
             published: "2025",
             src: "/Images/Thumbnails/IMAGE1.svg",
             videoSrc: "/Videos/tea-flow.mp4",
@@ -20,7 +20,7 @@ const Context = (props) => {
         },
         {
             id: 2,
-            title: "Tea flow",
+            title: "ChoreWars: Gamified Task Manager App",
             published: "2025",
             src: "/Images/Thumbnails/IMAGE5.svg",
             videoSrc: "/Videos/Russian-Mockups-video.mp4",
@@ -33,7 +33,7 @@ const Context = (props) => {
         },
         {
             id: 3,
-            title: "Sapori e natura",
+            title: "MacroCooking: RESTful AI Personalized Recipe Builder",
             published: "2025",
             src: "/Images/Thumbnails/IMAGE3.svg",
             videoSrc: "/Videos/the-cult.mp4",
