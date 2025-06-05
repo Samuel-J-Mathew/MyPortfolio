@@ -70,19 +70,7 @@ const Context = (props) => {
             image5: null,
             direction: "https://future-goals-gamma.vercel.app/",
         },
-        {
-            id: 6,
-            title: "lazeezarg",
-            published: "2024",
-            src: "/Images/Thumbnails/IMAGE13.svg",
-            videoSrc: "/Videos/Future-Goals.mp4",
-            image1: "/Images/Show-Case-Image/future-goals-2.jpg",
-            image2: "/Images/Show-Case-Image/future-goals-1.png",
-            image3: null,
-            image4: null,
-            image5: null,
-            direction: "https://future-goals-gamma.vercel.app/",
-        },
+       
     ]);
     return (
         <NewsContext.Provider value={[projectData, setProjectData]}>
