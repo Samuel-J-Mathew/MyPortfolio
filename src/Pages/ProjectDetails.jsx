@@ -86,22 +86,41 @@ const ProjectDetails = () => {
         </div>
       </div>
 
-      {/* Project images */}
-      <div className="px-3.5 md:px-[12vw] lg:px-[15vw]">
-        <div className="grid grid-cols-1 gap-12 md:gap-16 lg:gap-20">
-          {[project.image1, project.image2, project.image3, project.image4, project.image5]
-            .filter(Boolean)
-            .map((img, i) => (
-              <div key={i} className="aspect-video overflow-hidden col-span-1">
-                <img
-                  className="w-full h-full object-cover"
-                  src={img}
-                  alt={`${project.title} image ${i + 1}`}
-                />
-              </div>
-            ))}
-        </div>
+{/* Project images */}
+<div className="px-3.5 md:px-[12vw] lg:px-[15vw] space-y-12 md:space-y-16 lg:space-y-20">
+  {/* Render top image if available */}
+  {project.image1 && (
+    <div className="w-full aspect-video overflow-hidden rounded-md">
+      <img
+        src={project.image1}
+        alt={`${project.title} main image`}
+        className="w-full h-full object-cover"
+      />
+    </div>
+  )}
+
+  {/* Filter additional images */}
+  {(() => {
+    const additionalImages = [project.image2, project.image3, project.image4, project.image5].filter(Boolean);
+    const gridCols = additionalImages.length === 2 ? "grid-cols-2" : additionalImages.length === 1 ? "grid-cols-1" : "sm:grid-cols-2 lg:grid-cols-3";
+
+    return (
+      <div className={`grid ${gridCols} gap-6`}>
+        {additionalImages.map((img, i) => (
+          <div key={i} className="overflow-hidden rounded-md">
+            <img
+              src={img}
+              alt={`${project.title} image ${i + 2}`}
+              className="w-full h-auto object-contain"
+            />
+          </div>
+        ))}
       </div>
+    );
+  })()}
+</div>
+
+
 
       {/* Next project */}
       <div
