@@ -46,7 +46,7 @@ const Context = (props) => {
         },
         {
             id: 4,
-            title: "Future goals",
+            title: "Website for Lifting Customs",
             published: "2025",
             src: "/Images/Thumbnails/IMAGE7.svg",
             videoSrc: "/Videos/Future-Goals.mp4",
@@ -59,7 +59,7 @@ const Context = (props) => {
         },
         {
             id: 5,
-            title: "Game of Cups",
+            title: "Website for AOTL ",
             published: "2025",
             src: "/Images/Thumbnails/IMAGE10.svg",
             videoSrc: "/Videos/Future-Goals.mp4",
