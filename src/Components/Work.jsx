@@ -74,7 +74,7 @@ const Work = ({workTitle}) => {
                     <div className="w-10 sm:w-20 md:w-30 h-full absolute top-0 right-0 bg-gradient-to-r from-transparent via-transparent to-[#0E090D]/50 z-20 pointer-events-none select-none" />
 
                     <Link
-                        to="/details/"
+                        to={`/details/${project.id}`}
                         onMouseEnter={() => setSlideOpacity(i)}
                         onMouseLeave={() => setSlideOpacity(null)}
                         className={`flex relative ${

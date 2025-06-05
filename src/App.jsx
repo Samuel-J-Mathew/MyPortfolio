@@ -23,7 +23,7 @@ const App = () => {
                         <Route path="/" element={<HomePage />} />
                         <Route path="/about/" element={<AboutPage />} />
                         <Route path="/work/" element={<WorkPage />} />
-                        <Route path="/details/" element={<ProjectDetails />} />
+                        <Route path="/details/:id" element={<ProjectDetails />} />
                     </Routes>
                 </AnimatePresence>
             </LenisSmoothScroll>
